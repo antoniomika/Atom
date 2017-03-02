@@ -1,0 +1,137 @@
+"*":
+  "activate-power-mode":
+    autoToggle: false
+    particles:
+      size: {}
+      spawnCount: {}
+      totalCount: {}
+    screenShake: {}
+  "atom-autocomplete-php": {}
+  "atom-beautify":
+    bash:
+      indent_size: 4
+    general:
+      _analyticsUserId: ""
+      _loggerLevel: "verbose"
+      analytics: false
+      beautifyEntireFileOnSave: false
+    js: {}
+    php:
+      fixers: "-phpdoc_type_to_var,-indentation,-concat_without_spaces,-phpdoc_to_comment"
+  "atom-material-ui":
+    colors:
+      abaseColor: "#2196f3"
+      genAccent: true
+      predefinedColor: "Blue"
+    fonts: {}
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "atom-ternjs":
+    useSnippetsAndFunction: true
+  "autocomplete-ctags": {}
+  "autocomplete-plus": {}
+  "autocomplete-python":
+    useKite: false
+  "autocomplete-ruby":
+    rsensePath: "rsense"
+  core:
+    disabledPackages: [
+      "metrics"
+      "symbols-view"
+      "linter-pylint"
+      "autocomplete-php"
+      "php-composer-completion"
+      "autocomplete-ctags"
+      "fonts"
+      "atom-ctags"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".pioenvs"
+      ".piolibdeps"
+      ".clang_complete"
+      ".gcc-flags.json"
+    ]
+    packagesWithKeymapsDisabled: [
+      "git-plus"
+      "atom-autocomplete-php"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+    useCustomTitleBar: true
+  docblockr:
+    spacer_between_sections: true
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: ""
+  fonts:
+    preview: "The Quick brown fox { 0 !== \"O\" }adsfadsf"
+  "git-diff": {}
+  "git-plus":
+    general:
+      _analyticsUserId: ""
+  "go-plus":
+    panelDisplayMode: "closed"
+  hyperclick:
+    darwinTriggerKeys: "altKey"
+  linter:
+    errorPanelHeight: 61
+  "linter-jshint":
+    lintInlineJavaScript: true
+  "linter-php":
+    phpExecutablePath: "/usr/bin/php"
+  "linter-pug":
+    onlyRunWhenConfig: true
+  metrics:
+    userId: ""
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+    scrollAnimation: true
+  "php-integrator-autocomplete-plus":
+    disableBuiltinAutocompletion: false
+  "release-notes":
+    viewedVersion: "0.95.0"
+  "remote-edit": {}
+  "terminal-plus":
+    core: {}
+    style:
+      fontFamily: "Source Code Pro for Powerline"
+    toggles:
+      autoClose: true
+  termination:
+    style:
+      fontFamily: "Source Code Pro for Powerline"
+  "tool-bar":
+    position: "Left"
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
